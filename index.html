@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Configuração de Notificações</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>O que devo te lembrar?</h1>
+    <form id="notificationForm">
+        <label for="notificationDescription">Descrição:</label>
+        <input type="text" id="notificationDescription" placeholder="Digite a descrição da notificação">
+        <label for="notificationInterval">Intervalo (em minutos):</label>
+        <input type="number" id="notificationInterval" min="1" step="1" placeholder="Digite o intervalo em minutos">
+        <button type="submit">Salvar</button>
+    </form>
+    <h2>Notificações Salvas</h2>
+    <ul id="notificationList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
